@@ -28,7 +28,7 @@ const Footer = () => {
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:subashini.vtg@gmail.com",
+      url: "mailto:subashini260403@gmail.com",
       color: "hover:text-red-500"
     }
   ];
@@ -37,6 +37,7 @@ const Footer = () => {
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Skills", href: "#skills" },
+    { name: "Publications", href: "#publications" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" }
   ];
@@ -53,7 +54,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             className="space-y-4"
           >
-            <h3 className="text-xl font-bold text-gradient">Subashini.dev</h3>
+            <h3 className="text-xl font-bold text-gradient">Subashini</h3>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Passionate full-stack developer crafting digital experiences that make a difference. 
               Always learning, always building.

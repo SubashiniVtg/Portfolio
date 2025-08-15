@@ -40,7 +40,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Passionate software engineer with 5+ years of experience building innovative web applications
+            UI/UX Designer | MERN Stack Developer | Fullstack Development | Building Real-World Projects | Passionate About Crafting Smart, User-Centric Experiences | Open to Full-Time Roles
           </p>
         </motion.div>
 
@@ -56,18 +56,26 @@ const About = () => {
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed">
-                My passion for technology began during my computer science studies, where I discovered 
-                the power of code to solve real-world problems. Over the past 5+ years, I've evolved 
-                from a curious student to a seasoned full-stack developer.
+                My passion for technology began during my Computer Science engineering journey, 
+                where I discovered how code can transform ideas into real-world solutions. 
+                Over the years, I have evolved from a curious learner into a versatile full-stack developer,
+                 gaining hands-on experience in React, Node.js, MongoDB, SQL, and cloud platforms.
+
+                </p>
+              <p className="text-muted-foreground leading-relaxed">
+               I specialize in building responsive, user-friendly interfaces and designing secure, 
+               scalable backend architectures. My project experience ranges from financial empowerment 
+               applications with AI-driven analytics, to role-based management systems, 
+               and high-impact internship solutions deployed for real-world use.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I specialize in modern web technologies including React, Node.js, and cloud platforms. 
-                My experience spans from building responsive user interfaces to architecting scalable 
-                backend systems. I thrive in collaborative environments and enjoy mentoring junior developers.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring the latest tech trends, contributing to 
-                open-source projects, or sharing knowledge through technical writing and speaking at conferences.
+                I thrive in collaborative, problem-solving environments, 
+                and enjoy taking ownership of challenging projects—from planning and 
+                design to deployment and optimization. Beyond development, I actively explore 
+                emerging tech trends, contribute to open-source initiatives, and share my learnings through 
+                technical writing and peer mentoring.
+               For me, technology is not just a profession—it’s a way to create meaningful, 
+               impactful solutions that make a difference.
               </p>
             </div>
           </motion.div>
@@ -82,26 +90,26 @@ const About = () => {
           >
             <Card className="hover-lift glass-effect">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">5+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-3xl font-bold text-primary mb-2">2</div>
+                <div className="text-sm text-muted-foreground">Years Hands-on-Experience</div>
               </CardContent>
             </Card>
             <Card className="hover-lift glass-effect">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
+                <div className="text-3xl font-bold text-primary mb-2">5</div>
+                <div className="text-sm text-muted-foreground">Real-world Projects</div>
               </CardContent>
             </Card>
             <Card className="hover-lift glass-effect">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">15+</div>
+                <div className="text-3xl font-bold text-primary mb-2">8</div>
                 <div className="text-sm text-muted-foreground">Technologies</div>
               </CardContent>
             </Card>
             <Card className="hover-lift glass-effect">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">100%</div>
-                <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                <div className="text-3xl font-bold text-primary mb-2">2</div>
+                <div className="text-sm text-muted-foreground">Paper Publication</div>
               </CardContent>
             </Card>
           </motion.div>

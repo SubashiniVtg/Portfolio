@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/react.svg";
+import heroImage from "@/assets/image2.png";
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
                 transition={{ delay: 0.2, duration: 0.8 }}
                 className="text-5xl lg:text-7xl font-bold text-gradient leading-tight"
               >
-                Subashini VTG
+                Subashini Ganeshan
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ const Hero = () => {
                 transition={{ delay: 0.4, duration: 0.8 }}
                 className="text-xl lg:text-2xl text-muted-foreground font-light"
               >
-                Senior Software Engineer & Full-Stack Developer
+                UI/UX Designer & Full-Stack Developer
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -39,7 +39,7 @@ const Hero = () => {
                 className="text-lg text-muted-foreground max-w-lg leading-relaxed"
               >
                 Passionate about building scalable web applications and innovative solutions. 
-                Experienced in React, Node.js, and cloud technologies with a focus on user experience.
+                Experienced in Fullstack project development with a focus on user experience.
               </motion.p>
             </div>
 
@@ -67,8 +67,8 @@ const Hero = () => {
                 onClick={() => {
                   // Download resume
                   const link = document.createElement('a');
-                  link.href = '/resume.pdf';
-                  link.download = 'Subashini_VTG_Resume.pdf';
+                  link.href = '/Subashini_Resume.pdf';
+                  link.download = 'Subashini_Resume.pdf';
                   link.click();
                 }}
               >

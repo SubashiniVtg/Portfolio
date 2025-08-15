@@ -14,20 +14,18 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Languages",
       icon: Monitor,
       skills: [
-        "React", "TypeScript", "Next.js", "Vue.js", "JavaScript",
-        "HTML5", "CSS3", "Tailwind CSS", "SASS", "Responsive Design"
+        "Java", "C",  "Python","HTML5","CSS3","PHP"
       ],
       color: "text-blue-500"
     },
     {
-      title: "Backend Development",
+      title: "Frameworks",
       icon: Server,
       skills: [
-        "Node.js", "Express.js", "Python", "Django", "FastAPI",
-        "PHP", "RESTful APIs", "GraphQL", "Microservices"
+        "Bootstrap5", "MERN Stack"
       ],
       color: "text-green-500"
     },
@@ -35,34 +33,32 @@ const Skills = () => {
       title: "Database & Storage",
       icon: Database,
       skills: [
-        "PostgreSQL", "MongoDB", "MySQL", "Redis", "Firebase",
-        "DynamoDB", "Elasticsearch", "Database Design"
+        "Oracle Sql", "MongoDB", "MySQL", "GraphQL"
       ],
       color: "text-purple-500"
     },
     {
-      title: "Cloud & DevOps",
+      title: "Developer Tools",
       icon: Cloud,
       skills: [
-        "AWS", "Google Cloud", "Docker", "Kubernetes", "Jenkins",
-        "CI/CD", "Terraform", "Linux", "Git", "GitHub Actions"
+        "Visual Studio","Netbeans Apache","Colab","Posit","Jupyter Notebook","Anaconda","Turbo C"
       ],
       color: "text-orange-500"
     },
-    {
-      title: "Mobile Development",
-      icon: Smartphone,
-      skills: [
-        "React Native", "Flutter", "iOS", "Android",
-        "Mobile UI/UX", "App Store Optimization"
-      ],
-      color: "text-pink-500"
-    },
+    // {
+    //   title: "Mobile Development",
+    //   icon: Smartphone,
+    //   skills: [
+    //     "React Native", "Flutter", "iOS", "Android",
+    //     "Mobile UI/UX", "App Store Optimization"
+    //   ],
+    //   color: "text-pink-500"
+    // },
     {
       title: "Design & Tools",
       icon: Palette,
       skills: [
-        "Figma", "Adobe XD", "UI/UX Design", "Prototyping",
+        "Figma", "Canva", "UI/UX Design", "Prototyping",
         "User Research", "Design Systems", "Accessibility"
       ],
       color: "text-indigo-500"
@@ -71,27 +67,27 @@ const Skills = () => {
 
   const certifications = [
     {
-      name: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      year: "2023",
+      name: "Foundation of User Experience(UX) Design",
+      issuer: "Google - Coursera",
+      year: "2024",
       icon: "🏆"
     },
     {
-      name: "Google Cloud Professional Developer",
-      issuer: "Google Cloud",
-      year: "2022",
+      name: "The Complete Oracle Bootcamp",
+      issuer: "Udemy",
+      year: "2024",
       icon: "🎖️"
     },
     {
-      name: "Certified Kubernetes Administrator",
-      issuer: "CNCF",
-      year: "2022",
+      name: "TCS iON Career Edge - Young Professional",
+      issuer: "Tata Consultancy Services",
+      year: "2024",
       icon: "🏅"
     },
     {
-      name: "Meta React Developer Certificate",
-      issuer: "Meta",
-      year: "2021",
+      name: "Privacy and Security in Social Media",
+      issuer: "NPTEL",
+      year: "2025",
       icon: "📜"
     }
   ];

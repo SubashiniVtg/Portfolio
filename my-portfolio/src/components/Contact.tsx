@@ -21,8 +21,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "subashini.vtg@gmail.com",
-      link: "mailto:subashini.vtg@gmail.com"
+      value: "subashini260403@gmail.com",
+      link: "mailto:subashini260403@gmail.com"
     },
     {
       icon: Linkedin,
@@ -39,7 +39,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Madurai, TamilNadu",
       link: null
     }
   ];

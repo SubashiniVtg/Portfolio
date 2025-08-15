@@ -14,6 +14,7 @@ const Navigation = () => {
     { id: "about", label: "About" },
     { id: "experience", label: "Experience" },
     { id: "skills", label: "Skills" },
+    { id: "publications", label: "Publications" },
     { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact" }
   ];
@@ -53,8 +54,8 @@ const Navigation = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Subashini_VTG_Resume.pdf';
+    link.href = '/Subashini_Resume.pdf';
+    link.download = 'Subashini_Resume.pdf';
     link.click();
   };
 
@@ -80,7 +81,7 @@ const Navigation = () => {
               className="font-bold text-xl text-gradient cursor-pointer"
               onClick={() => scrollToSection("hero")}
             >
-              Subashini.dev
+              Subashini
             </motion.div>
 
             {/* Desktop Navigation */}

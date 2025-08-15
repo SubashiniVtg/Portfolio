@@ -6,60 +6,60 @@ import { Badge } from "@/components/ui/badge";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovation Corp",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      type: "Full-time",
-      description: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Implemented React/Node.js solutions that improved performance by 40%",
-        "Mentored team of 5 junior developers and established code review processes",
-        "Collaborated with product teams to deliver features ahead of schedule"
-      ],
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "PostgreSQL"]
-    },
-    {
       title: "Full Stack Developer",
-      company: "Digital Solutions Inc",
-      location: "Austin, TX",
-      period: "2020 - 2022",
+      company: "Newrta Solution Pvt.Lmt (Chella Softwares) ",
+      location: "Madurai, TamilNadu",
+      period: "Oct 2024- May 2025",
       type: "Full-time",
       description: [
-        "Built responsive web applications using React and Express.js",
-        "Designed and implemented RESTful APIs with comprehensive testing",
-        "Optimized database queries resulting in 60% performance improvement",
-        "Participated in agile development with cross-functional teams"
+        "Developed and deployed the Raise-My-Voice platform using Python Flask + MongoDB to enable working women to file workplace harassment complaints securely.",
+        "Implemented multi-role access for victims, committees, and admins, allowing multiple committees to log in, register, and manage cases.",
+        "Integrated complaint tracking with status updates, escalation options, and evidence submission for transparent resolution workflows.",
+        "Designed an admin dashboard to monitor total, pending, and resolved complaints, enabling timely action and analytics-based decision-making."
       ],
-      technologies: ["React", "Express.js", "MongoDB", "Jest", "Git", "Jenkins"]
+      technologies: ["Python", "HTML", "CSS", "Bootstrap", "Javascript", "MongoDB"]
     },
     {
-      title: "Frontend Developer",
-      company: "StartupHub Technologies",
-      location: "Seattle, WA",
-      period: "2019 - 2020",
-      type: "Full-time",
+      title: "Pragati - Path to Future Cohort-2",
+      company: "Infosys Springboard",
+      location: "Virtual",
+      period: "July 2024 - Nov 2024",
+      type: "Online",
       description: [
-        "Developed user-friendly interfaces for B2B SaaS applications",
-        "Collaborated with UX/UI designers to implement pixel-perfect designs",
-        "Integrated third-party APIs and payment processing systems",
-        "Maintained high code quality with 95%+ test coverage"
+        "Successfully completed the Pragati Path to Future Cohort-2 Internship Program by Infosys Springboard, a six-month online learning initiative.",
+        "Gained knowledge of IT technologies, fundamentals of AI, and basic programming skills in Java and Python.",
+        "Developed competencies in Software Engineering principles and Agile Development methodologies.",
+        "Appreciated the program’s focus on women’s empowerment in technology, enhancing both technical and professional skills."
       ],
-      technologies: ["JavaScript", "HTML5", "CSS3", "Vue.js", "Sass", "Webpack"]
+      technologies: ["Artificial Intelligence"]
     },
     {
-      title: "Junior Web Developer",
-      company: "Creative Web Studio",
-      location: "Portland, OR",
-      period: "2018 - 2019",
-      type: "Full-time",
+      title: "Web Developer",
+      company: "Exposys Data labs",
+      location: "Bangalore(virtual)",
+      period: " Dec 2023 - Jan 2024",
+      type: "Internship",
       description: [
-        "Created responsive websites for small to medium businesses",
-        "Learned modern development practices and industry standards",
-        "Participated in client meetings and requirement gathering",
-        "Contributed to open-source projects and team knowledge sharing"
+        "Developed a multi-page responsive website ensuring seamless compatibility across desktops, tablets, and smartphones.",
+        "Designed and implemented an intuitive navigation system for enhanced user accessibility and smooth browsing.",
+        "Applied performance optimization techniques to achieve fast loading speeds and responsive interactions.",
+        "Strengthened skills in web development and design, gaining hands-on experience in creating user-centric digital solutions."
       ],
-      technologies: ["JavaScript", "React", "CSS3", "WordPress", "PHP", "MySQL"]
+      technologies: ["JavaScript", "HTML5", "CSS3","Bootstrap"]
+    },
+    {
+      title: "UI/UX Designer",
+      company: "Extion Info tech",
+      location: "Coimbatore, India",
+      period: "Dec 2023- Jan 2024",
+      type: "Internship",
+      description: [
+        "Recreated a plant shop website in Figma, focusing on enhancing user experience and visual appeal.",
+        "Designed simplified navigation to make plant browsing and purchasing more intuitive and enjoyable.",
+        "Applied visual hierarchy principles to highlight product images and essential details effectively.",
+        "Created a responsive layout optimized for both desktop and mobile, strengthening UI/UX design skills."
+      ],
+      technologies: ["UI/UX designing"]
     }
   ];
 

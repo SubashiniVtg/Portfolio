@@ -7,107 +7,142 @@ import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and analytics dashboard. Built for scalability with microservices architecture.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "PostgreSQL", "Redis", "Stripe", "AWS"],
+      title: "🚀 Online Food Delivery Platform for Hostels 🍽️",
+      description: "An online food delivery system tailored for hostel environments, inspired by the e-commerce experience of platforms like Flipkart and Amazon. Built as a 4th-semester Database Management System project, it offers a seamless multi-role interface for customers, restaurant managers, and delivery personnel.",
+      image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&h=400&fit=crop",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
       features: [
-        "Real-time inventory tracking",
-        "Payment gateway integration",
-        "Admin analytics dashboard",
-        "Mobile-responsive design"
-      ],
-      github: "https://github.com/subashinivtg/ecommerce-platform",
-      live: "https://ecommerce-demo.vercel.app",
+    "User-friendly responsive interface",
+    "Customer login and ordering system",
+    "Restaurant manager panel to add/delete food items",
+    "Delivery boy login for in-house and external staff",
+    "Mobile-first design for hostel use cases"
+  ],
+      github: "https://github.com/SubashiniVtg/Online-Food-Delivery-Website",
+      live: "https://www.linkedin.com/feed/update/urn:li:activity:7241470404056248321/",
       status: "Production",
-      users: "10K+",
-      year: "2023"
-    },
-    {
-      title: "Task Management SaaS",
-      description: "A collaborative project management tool with real-time updates, team collaboration features, and advanced reporting. Supports multiple workspaces and integrations.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["React", "TypeScript", "Express.js", "MongoDB", "Socket.io", "Docker"],
-      features: [
-        "Real-time collaboration",
-        "Advanced reporting",
-        "Multiple workspace support",
-        "Third-party integrations"
-      ],
-      github: "https://github.com/subashinivtg/task-manager",
-      live: "https://taskflow-app.vercel.app",
-      status: "Active Development",
-      users: "5K+",
-      year: "2023"
-    },
-    {
-      title: "AI Chat Assistant",
-      description: "An intelligent chatbot application with natural language processing, context awareness, and learning capabilities. Integrates with multiple AI providers for enhanced responses.",
-      image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop",
-      technologies: ["React", "Python", "FastAPI", "OpenAI", "PostgreSQL", "WebSockets"],
-      features: [
-        "Natural language processing",
-        "Context-aware responses",
-        "Multi-provider AI integration",
-        "Real-time messaging"
-      ],
-      github: "https://github.com/subashinivtg/ai-chat-assistant",
-      live: "https://ai-assistant-demo.vercel.app",
-      status: "Beta",
-      users: "2K+",
+      // users: "10K+",
       year: "2024"
     },
     {
-      title: "Real Estate Platform",
-      description: "A comprehensive real estate marketplace with property listings, virtual tours, mortgage calculator, and agent management system. Features advanced search and filtering.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "Mapbox", "Cloudinary", "Vercel"],
-      features: [
-        "Interactive property maps",
-        "Virtual tour integration",
-        "Mortgage calculator",
-        "Agent portal"
-      ],
-      github: "https://github.com/subashinivtg/real-estate-platform",
-      live: "https://realestate-platform.vercel.app",
-      status: "Production",
-      users: "8K+",
-      year: "2022"
+  title: "🚀 Reimagining Instagram: A Purpose-Driven Redesign 🎯",
+  description: "A passion project where I reimagined Instagram—not to clone it, but to elevate the platform with smarter, more human-centered features that merge entertainment with productivity. As both a UI/UX designer and developer, I focused on solving real user pain points with empathy and functionality.",
+  image: "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?w=600&h=400&fit=crop",
+  technologies: ["Figma"],
+  features: [
+    "🎵 Integrated music & movie streaming within the app",
+    "⏱️ In-app timer and daily planner for mindful screen time",
+    "📰 Real-time news broadcast page for awareness",
+    "🌅 Daily inspirational quote feature",
+    "🌗 One-click dark/light mode toggle (visible & intuitive)",
+    "🔔 Separate notification icons (Likes, DMs, Shares)",
+    "✨ Smooth transitions and consistent experience across themes"
+  ],
+  highlights: [
+    "Focused on empathy-driven design for real-world behavior",
+    "Balanced aesthetics with usability for modern users",
+    "Merged development and design thinking for cohesive execution"
+  ],
+      github: "https://github.com/SubashiniVtg/Online-Food-Delivery-Website",
+      live: "https://www.figma.com/files/team/1328346394090731502/recents-and-sharing/recently-viewed?fuid=1328346391621575973",
+      status: "Design",
+      // users: "10K+",
+      year: "2024"
+},
+
+    // {
+    //   title: "Task Management SaaS",
+    //   description: "A collaborative project management tool with real-time updates, team collaboration features, and advanced reporting. Supports multiple workspaces and integrations.",
+    //   image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+    //   technologies: ["React", "TypeScript", "Express.js", "MongoDB", "Socket.io", "Docker"],
+    //   features: [
+    //     "Real-time collaboration",
+    //     "Advanced reporting",
+    //     "Multiple workspace support",
+    //     "Third-party integrations"
+    //   ],
+    //   github: "https://github.com/subashinivtg/task-manager",
+    //   live: "https://taskflow-app.vercel.app",
+    //   status: "Active Development",
+    //   users: "5K+",
+    //   year: "2023"
+    // },
+    {
+     title: "🚀 Internship Project: Real-Time Deployment of Workplace Harassment Reporting System",
+     description: "Originally brought on as a UI/UX intern, I pivoted to full-stack development during my internship to build and deploy a real-time complaint management system titled 'Sexual Harassment at Workplace'. Despite unexpected challenges and tech limitations, our team delivered a secure and scalable web app using Python Flask and MongoDB.",
+     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop",
+     technologies: ["HTML", "CSS", "Bootstrap", "Python Flask", "MongoDB"],
+  features: [
+    "🧾 Complaint filing & real-time case tracking",
+    "🔐 CAPTCHA and OTP-based user authentication",
+    "📊 Admin dashboard with analytics on complaint status",
+    "👮‍♂️ Nodal officer system for complaint handling",
+    "🔁 Escalation mechanism for unresolved cases",
+    "📱 Clean, responsive UI for users and admins"
+  ],
+      github: "https://github.com/akilarani21/RMV",
+      live: "https://www.linkedin.com/feed/update/urn:li:activity:7302712699841392641/",
+      status: "Deployed",
+      // users: "2K+",
+      year: "2025"
     },
     {
-      title: "Social Media Analytics",
-      description: "A comprehensive analytics dashboard for social media management with sentiment analysis, engagement tracking, and automated reporting for multiple platforms.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Python", "Django", "Chart.js", "Redis", "Celery"],
-      features: [
-        "Multi-platform analytics",
-        "Sentiment analysis",
-        "Automated reporting",
-        "Real-time monitoring"
-      ],
-      github: "https://github.com/subashinivtg/social-analytics",
-      live: "https://social-analytics-demo.vercel.app",
-      status: "Production",
-      users: "15K+",
-      year: "2022"
+      title: "🌟 Zoho Cliqtrix 2025 – Learning Hub Chatbot",
+     description: "Built an interactive chatbot as part of Zoho Cliqtrix 2025 that streamlined course enrollment, progress tracking, collaboration, and user engagement. While I wasn’t selected for the internship, the experience greatly sharpened my skills in web development, chatbot design, and API integration.",
+     image: "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?w=600&h=400&fit=crop",
+     technologies: ["HTML", "CSS", "JavaScript", "Zoho Cliqtrix", "Zoho Meeting API"],
+     features: [
+    "📚 Course Registration with instant email confirmations",
+    "📈 Progress Tracking via external resources (GFG, W3Schools)",
+    "🤝 Google Classroom + GitHub integration for project collaboration",
+    "⭐ Feedback Collection with rating-based course suggestions",
+    "🎮 Gamification with Sudoku and word puzzle mini-games",
+    "📅 Schedule Meetings using Zoho Meeting API",
+    "💻 Fully responsive design for desktop and mobile"
+  ],
+      github: "https://github.com/SubashiniVtg/Learn-Hub-Assistance",
+      live: "http://linkedin.com/feed/update/urn:li:activity:7317606003435360259/",
+      status: "Production",  
+      year: "2024"
     },
     {
-      title: "Fitness Tracking App",
-      description: "A mobile-first fitness application with workout planning, progress tracking, nutrition logging, and social features. Includes wearable device integration.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
-      technologies: ["React Native", "Firebase", "Node.js", "MongoDB", "Health Kit"],
-      features: [
-        "Workout planning",
-        "Progress tracking",
-        "Nutrition logging",
-        "Wearable integration"
-      ],
-      github: "https://github.com/subashinivtg/fitness-tracker",
-      live: "https://fitness-app-demo.vercel.app",
+      title: "Caffeine  Dreams☕",
+      description: "My first hands-on React project: a dynamic, component-driven menu card for a coffee website. This beginner-level project helped me understand the core concepts of React such as components, props, and state management while creating an engaging and responsive user interface.",
+      image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&h=400&fit=crop", // Optional: Replace with your project screenshot or a relevant image
+       technologies: ["MERN Stack"],
+     features: [
+    "📦 Modular React components for menu sections",
+    "🔄 State and props for dynamic rendering",
+    "☕ Menu Categories: Coffee, Ice Cream, Soft Drinks, Tea, Chocolates",
+    "📱 Responsive layout for mobile and desktop",
+    "🎨 Clean, beginner-friendly UI"
+  ],
+      github: "https://github.com/SubashiniVtg/Caffeine-Dreams",
+      live: "https://www.linkedin.com/feed/update/urn:li:activity:7250171774267486209/",
       status: "Production",
-      users: "25K+",
-      year: "2021"
-    }
+      year: "2024"
+    },
+    {
+      title: "🚀 Empowering Women Through Tech – Infosys iAccelerate Hackathon 2025",
+  description: "Participated in the Infosys Springboard iAccelerate Women's Hackathon 2025, where I designed and developed a financial empowerment app specifically tailored to help women build financial literacy, manage expenses, and make informed investment decisions.",
+  image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
+  technologies: ["React", "JavaScript", "REST APIs", "AI/ML (conceptual)", "Figma (UI design)"],
+  features: [
+    "📚 Educational content on budgeting, saving, and investing",
+    "💰 Expense tracking and financial planning tools",
+    "📈 SIP and EMI calculators",
+    "📊 Investment portfolio tracking",
+    "🤖 AI-powered investment suggestions",
+    "📉 Predictive analytics for financial trend forecasting",
+    "🎮 Gamified learning for interactive financial education"
+  ],
+      github: "https://github.com/SubashiniVtg/Finance-Tracker-App",
+      live: "https://www.linkedin.com/feed/update/urn:li:activity:7324358800046522368/",
+      status: "Production",
+      // users: "25K+",
+      year: "2025"
+    },
+
   ];
 
   const getStatusColor = (status: string) => {
@@ -163,7 +198,7 @@ const Projects = () => {
                     <div className="flex items-center gap-4 text-sm">
                       <div className="flex items-center gap-1">
                         <Users className="h-4 w-4" />
-                        {project.users}
+                        {/* {project.users} */}
                       </div>
                       <div className="flex items-center gap-1">
                         <Clock className="h-4 w-4" />
