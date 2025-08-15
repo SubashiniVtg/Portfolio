@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/Portfolio/" />
+    <meta charset="utf-8">
+    <script type="text/javascript">
+      // Save the path user was trying to access
+      sessionStorage.redirect = location.pathname + location.search + location.hash;
+      // Redirect to index.html
+      location.replace("/Portfolio/");
+    </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
