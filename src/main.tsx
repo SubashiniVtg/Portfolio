@@ -6,11 +6,6 @@ import "./index.css";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
-const redirect = sessionStorage.redirect;
-if (redirect) {
-  delete sessionStorage.redirect;
-  window.history.replaceState(null, "", redirect);
-}
 
 root.render(
   <React.StrictMode>
