@@ -67,7 +67,7 @@ const Hero = () => {
                 onClick={() => {
                   // Download resume
                   const link = document.createElement('a');
-                  link.href = '/Subashini_Resume.pdf';
+                  link.href = './Subashini_CSE_VCET.pdf';
                   link.download = 'Subashini_Resume.pdf';
                   link.click();
                 }}
