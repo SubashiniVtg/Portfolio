@@ -43,8 +43,8 @@ const Projects = () => {
     "Balanced aesthetics with usability for modern users",
     "Merged development and design thinking for cohesive execution"
   ],
-      github: "https://github.com/SubashiniVtg/Online-Food-Delivery-Website",
-      live: "https://www.figma.com/files/team/1328346394090731502/recents-and-sharing/recently-viewed?fuid=1328346391621575973",
+      github: "https://www.figma.com/files/team/1328346394090731502/recents-and-sharing/recently-viewed?fuid=1328346391621575973",
+      live: "https://www.linkedin.com/posts/subashinivtg_uidesigner-uxdesigner-uiux-activity-7318937804120510464-nHVo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEe9290B8BeobhXJdZUH10SMAnqAaNzEy30",
       status: "Design",
       // users: "10K+",
       year: "2024"

@@ -17,13 +17,13 @@ const publications = [
     icon: "📙",
     // link: "https://ieeexplore.ieee.org/document/your-paper-id", // replace with your actual IEEE link
   },
-//   {
-//     title: "Blockchain for Secure Complaint Handling",
-//     conference: "Elsevier – IJCSIT",
-//     year: "2024",
-//     icon: "📗",
-//     link: "https://www.sciencedirect.com/science/article/your-paper-id", // replace with actual Elsevier link
-//   }
+  {
+    title: " ARGUS: An AI-based Real-time Global Unified Deepfake Screening System",
+    conference: "yet to be published",
+    year: "2025",
+    icon: "📗",
+    // link: "https://www.sciencedirect.com/science/article/your-paper-id", // replace with actual Elsevier link
+  }
 ];
 
 const Publications = () => {
