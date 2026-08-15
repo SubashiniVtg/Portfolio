@@ -7,7 +7,8 @@ import {
   Palette, 
   Settings,
   Server,
-  Monitor
+  Monitor,
+  Workflow
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -25,15 +26,23 @@ const Skills = () => {
       title: "Frameworks",
       icon: Server,
       skills: [
-        "Bootstrap5", "MERN Stack"
+         "Java Spring Boot", "Bootstrap5", "MERN Stack"
       ],
       color: "text-green-500"
+    },
+    {
+      title: "Newgen Platform Skills",
+      icon: Workflow,
+      skills: [
+          "NewgenOne","OmniDocs", "OmniDesk", "IBPS(intellectual Business process suite)", "CCM (Configuration Designer)"
+      ],
+      color: "text-cyan-500"
     },
     {
       title: "Database & Storage",
       icon: Database,
       skills: [
-        "Oracle Sql", "MongoDB", "MySQL", "GraphQL"
+        "Oracle Sql", "MongoDB", "MySQL", "GraphQL","Postgress"
       ],
       color: "text-purple-500"
     },
@@ -67,6 +76,36 @@ const Skills = () => {
 
   const certifications = [
     {
+      name: "Google Cloud Gen AI Academy APAC 2026",
+      issuer: "Google Cloud",
+      year: "2026",
+      icon: "📜"
+    },
+    {
+      name: "Java Bootcamp:Learn Java with 100+ Java Projects",
+      issuer: "Udemy",
+      year: "2026",
+      icon: "🏆"
+    },
+    {
+      name: "Claude 101, AI Fluency Framework and Fundamentals",
+      issuer: "Anthropic",
+      year: "2026",
+      icon: "🎖️"
+    },
+    {
+      name: "Problem Solving DSA",
+      issuer: "Geeks for Geeks",
+      year: "2025",
+      icon: "🏅"
+    },
+    {
+      name: "Privacy and Security in Social Media",
+      issuer: "NPTEL",
+      year: "2025",
+      icon: "📜"
+    },
+    {
       name: "Foundation of User Experience(UX) Design",
       issuer: "Google - Coursera",
       year: "2024",
@@ -84,12 +123,7 @@ const Skills = () => {
       year: "2024",
       icon: "🏅"
     },
-    {
-      name: "Privacy and Security in Social Media",
-      issuer: "NPTEL",
-      year: "2025",
-      icon: "📜"
-    }
+    
   ];
 
   return (

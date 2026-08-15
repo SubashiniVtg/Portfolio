@@ -194,6 +194,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+     display: inline-block;
+     line-height: 1.2;
+     padding-bottom: 0.2em;
   }
   
   /* Skill Badge Styles */

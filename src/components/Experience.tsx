@@ -6,6 +6,32 @@ import { Badge } from "@/components/ui/badge";
 const Experience = () => {
   const experiences = [
     {
+      title: "Software Engineer Trainee",
+      company: "Newgen Software Technologies Limited",
+      location: "Chennai, TamilNadu",
+      period: "Jan 2026 - Present",
+      type: "On-site",
+      description: [
+        "Working on projects for Canara Bank and BFIL, IDBI , BIAL using Newgen platforms (OmniDocs, OmniDesk, IBPS,NewgenOne) for document management and BPM solutions.",
+        "Designing and configuring workflows using CCM (Configuration Designer) to meet client requirements and streamline business processes.",
+        "Collaborating with cross-functional teams to deliver enterprise-grade document management and business process automation solutions.",
+        "Working on Low code digital transformation platform for Multi-personal development team (NewgenOne)."
+      ],
+      technologies: ["NewgenOne","IBPS (intellectual Business Process Suite)", "CCM (Configuration Designer)","OmniDocs", "OmniDesk"]
+    },
+    {
+      title: "Associate Software Engineer Trainee",
+      company: "Hexaware Technologies",
+      location: "Chennai, TamilNadu",
+      period: "Nov 2025 - Dec 2025",
+      type: "Remote",
+      description: [
+        "Gained foundational knowledge in SDLC, Software Testing, Agile methodology, Java, OOPs, and Data Structures, with practical exposure to industry-standard development and testing practices.",
+        "Enhanced professional soft skills through Campus-to-Corporate training, including business communication, meeting etiquette, PPT preparation, and presentations."
+      ],
+      technologies: ["Java", "OOPs", "Data Structures", "SDLC", "Agile Methodology"]
+    },
+    {
       title: "Full Stack Developer",
       company: "Newrta Solution Pvt.Lmt (Chella Softwares) ",
       location: "Madurai, TamilNadu",

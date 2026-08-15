@@ -39,7 +39,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      value: "Madurai, TamilNadu",
+      value: "Chennai, TamilNadu",
       link: null
     }
   ];
@@ -161,7 +161,7 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <Card className="glass-effect">
+              {/* <Card className="glass-effect">
                 <CardContent className="p-6">
                   <h4 className="font-semibold mb-4">Quick Response</h4>
                   <div className="space-y-3 text-sm text-muted-foreground">
@@ -179,7 +179,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
             </motion.div>
           </motion.div>
 

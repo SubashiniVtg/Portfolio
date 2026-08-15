@@ -30,7 +30,7 @@ const Hero = () => {
                 transition={{ delay: 0.4, duration: 0.8 }}
                 className="text-xl lg:text-2xl text-muted-foreground font-light"
               >
-                UI/UX Designer & Full-Stack Developer
+                Software Developer
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -38,8 +38,11 @@ const Hero = () => {
                 transition={{ delay: 0.6, duration: 0.8 }}
                 className="text-lg text-muted-foreground max-w-lg leading-relaxed"
               >
-                Passionate about building scalable web applications and innovative solutions. 
-                Experienced in Fullstack project development with a focus on user experience.
+               I’m a passionate software developer who enjoys turning ideas into practical, 
+               user-focused solutions. My experience spans full-stack web development, UI/UX design, 
+               database technologies, and enterprise application implementation. I love exploring new technologies, 
+               solving real-world challenges, and building applications that 
+               combine functionality, performance, and great user experiences.
               </motion.p>
             </div>
 

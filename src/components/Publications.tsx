@@ -4,6 +4,13 @@ import { Card, CardContent } from "@/components/ui/card"; // Adjust if needed
 
 const publications = [
   {
+    title: " ARGUS: An AI-based Real-time Global Unified Deepfake Screening System",
+    conference: "International Conference on Data Science, Agents, and Artificial Intelligence(ICDSAAI 2026)",
+    year: "2026",
+    icon: "📗",
+    // link: "https://www.sciencedirect.com/science/article/your-paper-id", // replace with actual Elsevier link
+  } ,
+  {
     title: "Agri voice-A voice based Direct Marketing Platform for Empowering Farmer through IVR and Voice-To-Text Technology",
     conference: "IEEE - 5th International Conference on Pervasive Computing and Social Network (ICPCSN)",
     year: "2025",
@@ -16,13 +23,6 @@ const publications = [
     year: "2024",
     icon: "📙",
     // link: "https://ieeexplore.ieee.org/document/your-paper-id", // replace with your actual IEEE link
-  },
-  {
-    title: " ARGUS: An AI-based Real-time Global Unified Deepfake Screening System",
-    conference: "yet to be published",
-    year: "2025",
-    icon: "📗",
-    // link: "https://www.sciencedirect.com/science/article/your-paper-id", // replace with actual Elsevier link
   }
 ];
 
