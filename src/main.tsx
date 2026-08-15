@@ -9,7 +9,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/Portfolio">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
